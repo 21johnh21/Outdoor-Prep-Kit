@@ -15,18 +15,26 @@ struct ContentView: View {
         sortDescriptors: [NSSortDescriptor(keyPath: \Trip.timestamp, ascending: true)],
         animation: .default)
     private var trips: FetchedResults<Trip>
+    @State private var isAddingTrip = false
+    @State private var selection: Trip?
 
     var body: some View {
         NavigationView {
-            List {
+            List(selection: $selection){
                 ForEach(trips) { trip in
-                    NavigationLink {
-                        Text("Trip at \(trip.timestamp!, formatter: tripFormatter)")
-                    } label: {
-                        Text(trip.timestamp!, formatter: tripFormatter)
+                    NavigationLink(
+                        destination: TripDetail(trip: trip)){
+                        TripCard(trip: trip)
                     }
                 }
                 .onDelete(perform: deleteTrips)
+            }
+            .navigationTitle("Outdoor Prep Kit")
+            .sheet(isPresented: $isAddingTrip) {
+                NavigationStack {
+                    AddTripView()
+                }
+                .presentationDetents([.medium, .large])
             }
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
@@ -35,12 +43,12 @@ struct ContentView: View {
                     }
                 }
                 ToolbarItem {
-                    Button(action: addTrip) {
-                        Label("Add Trip", systemImage: "plus")
+                    Button(action: {
+                        isAddingTrip = true}) {
+                        Image(systemName: "plus")
                     }
                 }
             }
-            Text("Select a trip")
         }
     }
 
