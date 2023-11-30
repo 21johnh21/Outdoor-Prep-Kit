@@ -33,7 +33,7 @@ struct TripDetail: View {
                 }
             }
             .padding()
-            ItemListView(trip: trip)
+            ItemListView(trip: trip, isAddingItem: $isAddingItem)
         }
         .sheet(isPresented: $isAddingItem) {
             NavigationStack {

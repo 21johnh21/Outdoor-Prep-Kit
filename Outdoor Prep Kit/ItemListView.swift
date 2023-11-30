@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ItemListView: View {
     var trip : Trip
+    @Binding var isAddingItem: Bool
     
     @Environment(\.managedObjectContext) private var viewContext
     @State private var items: [Item] = []
@@ -17,11 +18,14 @@ struct ItemListView: View {
         NavigationView {
             List{
                 ForEach(items) { item in
-                    Text("Test")
+                    ItemCard(item: item)
                 }
             }
         }
         .onAppear {
+            fetchItems()
+        }
+        .onChange(of: isAddingItem){
             fetchItems()
         }
     }
