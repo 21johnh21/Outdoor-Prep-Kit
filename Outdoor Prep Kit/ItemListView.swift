@@ -20,6 +20,7 @@ struct ItemListView: View {
                 ForEach(items) { item in
                     ItemCard(item: item)
                 }
+                .onDelete(perform: deleteItem)
             }
         }
         .onAppear {
@@ -35,6 +36,25 @@ struct ItemListView: View {
         if let itemsSet = trip.items {
             // Convert the NSSet to an array
             items = (itemsSet.allObjects as? [Item]) ?? []
+        }
+    }
+    
+    private func deleteItem(offsets: IndexSet) {
+        withAnimation {
+            // Get the items to be deleted based on the selected offsets
+            let itemsToDelete = offsets.map { items[$0] }
+            
+            // Delete each item
+            itemsToDelete.forEach { item in
+                viewContext.delete(item)
+            }
+
+            do {
+                try viewContext.save()
+            } catch {
+                let nsError = error as NSError
+                fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
+            }
         }
     }
 }
