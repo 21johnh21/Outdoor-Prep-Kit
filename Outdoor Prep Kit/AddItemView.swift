@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Combine
 
 struct AddItemView: View {
     let trip : Trip
@@ -15,20 +16,33 @@ struct AddItemView: View {
     @State private var name = ""
     @State private var brand = ""
     @State private var model = ""
+    @State private var weight = 0.0
+    @State private var weightText = ""
+    @State private var qty : Int = 1
     
     var body: some View {
         Form{
-            Section(header: Text("Outing Name")) {
+            Section(header: Text("Item Name")) {
                 Group {
-                    TextField("Enter name here…", text: $name)
+                    TextField("Name", text: $name)
                 }
             }
             
-            Section(header: Text("Trip Description")) {
+            Section(header: Text("Item Details")) {
                 Group {
-                    TextField("Enter description here…", text: $brand)
-                    TextField("Enter description here…", text: $model)
+                    TextField("Brand", text: $brand)
+                    TextField("Model", text: $model)
+                    TextField("weight", text: $weightText)
+                        .keyboardType(.numberPad)
+                        .onReceive(Just(weightText)) { newValue in
+                            weightText = newValue.filter { $0.isNumber || $0 == "." }
+                            weight = Double(weightText) ?? 0
+                        }
+                    Stepper(value: $qty, in: 1...100) {
+                                    Text("\(qty)")
+                    }
                 }
+                
             }
         }
         .navigationTitle("Add Item")
@@ -55,6 +69,8 @@ struct AddItemView: View {
             newItem.name = name
             newItem.brand = brand
             newItem.model = model
+            newItem.weight = weight
+            newItem.qty = Int16(qty)
             newItem.timestamp = Date()
             saveContext()
         }
