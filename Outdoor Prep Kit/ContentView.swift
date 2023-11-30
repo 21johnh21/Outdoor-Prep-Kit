@@ -33,7 +33,7 @@ struct ContentView: View {
             .sheet(isPresented: $isAddingTrip) {
                 NavigationStack {
                     AddTripView()
-                }
+            }
                 .presentationDetents([.medium, .large])
             }
             .toolbar {

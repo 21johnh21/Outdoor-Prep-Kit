@@ -16,6 +16,8 @@
 		F8BE91C32B13BCE100E7BE86 /* TripCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BE91C22B13BCE100E7BE86 /* TripCard.swift */; };
 		F8BE91C72B13E0DA00E7BE86 /* AddTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BE91C62B13E0DA00E7BE86 /* AddTripView.swift */; };
 		F8BE91C92B13F8F400E7BE86 /* TripDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BE91C82B13F8F400E7BE86 /* TripDetail.swift */; };
+		F8BE91CB2B16BC0C00E7BE86 /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BE91CA2B16BC0C00E7BE86 /* ItemListView.swift */; };
+		F8BE91CD2B16C30E00E7BE86 /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BE91CC2B16C30E00E7BE86 /* AddItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		F8BE91C22B13BCE100E7BE86 /* TripCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripCard.swift; sourceTree = "<group>"; };
 		F8BE91C62B13E0DA00E7BE86 /* AddTripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTripView.swift; sourceTree = "<group>"; };
 		F8BE91C82B13F8F400E7BE86 /* TripDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetail.swift; sourceTree = "<group>"; };
+		F8BE91CA2B16BC0C00E7BE86 /* ItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListView.swift; sourceTree = "<group>"; };
+		F8BE91CC2B16C30E00E7BE86 /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 				F8BE91C22B13BCE100E7BE86 /* TripCard.swift */,
 				F8BE91C62B13E0DA00E7BE86 /* AddTripView.swift */,
 				F8BE91C82B13F8F400E7BE86 /* TripDetail.swift */,
+				F8BE91CA2B16BC0C00E7BE86 /* ItemListView.swift */,
+				F8BE91CC2B16C30E00E7BE86 /* AddItemView.swift */,
 				F8BE91B72B13A38D00E7BE86 /* Assets.xcassets */,
 				F8BE91B92B13A38D00E7BE86 /* Outdoor_Prep_Kit.entitlements */,
 				F8BE91B22B13A38C00E7BE86 /* Outdoor_Prep_Kit.xcdatamodeld */,
@@ -155,8 +161,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8BE91B42B13A38C00E7BE86 /* Outdoor_Prep_Kit.xcdatamodeld in Sources */,
+				F8BE91CD2B16C30E00E7BE86 /* AddItemView.swift in Sources */,
 				F8BE91AF2B13A38C00E7BE86 /* Outdoor_Prep_KitApp.swift in Sources */,
 				F8BE91C92B13F8F400E7BE86 /* TripDetail.swift in Sources */,
+				F8BE91CB2B16BC0C00E7BE86 /* ItemListView.swift in Sources */,
 				F8BE91B62B13A38C00E7BE86 /* ContentView.swift in Sources */,
 				F8BE91B12B13A38C00E7BE86 /* Persistence.swift in Sources */,
 				F8BE91C32B13BCE100E7BE86 /* TripCard.swift in Sources */,

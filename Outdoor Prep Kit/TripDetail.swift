@@ -10,6 +10,8 @@ import SwiftUI
 struct TripDetail: View {
     var trip: Trip
     
+    @State private var isAddingItem = false
+    
     var body: some View {
         VStack {
             HStack {
@@ -25,13 +27,18 @@ struct TripDetail: View {
                 Text("Items").font(.headline)
                 Spacer()
                 Button(action: {
-//                    showItemEdit = true
-//                    isAddingNewItem = true
+                    isAddingItem = true
                 }) {
                     Image(systemName: "plus")
                 }
             }
             .padding()
+            ItemListView(trip: trip)
+        }
+        .sheet(isPresented: $isAddingItem) {
+            NavigationStack {
+                AddItemView(trip: trip)
+            }
         }
     }
 }
