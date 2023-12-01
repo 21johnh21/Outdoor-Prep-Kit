@@ -10,6 +10,12 @@ import SwiftUI
 struct ItemCard: View {
     let item: Item
     
+    @State private var isPacked: Bool
+    init(item: Item) {
+        self.item = item
+        _isPacked = State(initialValue: item.packed)
+    }
+    
     var body: some View {
         HStack{
             VStack(alignment: .leading){
@@ -25,10 +31,29 @@ struct ItemCard: View {
             }
             .padding()
             Spacer()
-            Image(systemName: "backpack.circle")
+            Image(systemName: isPacked ? "backpack.circle" : "circle")
                 .font(.system(size: 64))
-                .padding(.trailing)
-                .foregroundColor(.green)
+                .foregroundColor(isPacked ? .green : .gray)
+                .onTapGesture {
+                    togglePacked()
+                }
+            .padding(.trailing)
+        }
+    }
+    private func togglePacked() {
+        withAnimation {
+            item.packed.toggle()
+            isPacked = item.packed
+            saveContext()
+        }
+    }
+
+    private func saveContext() {
+        do {
+            try item.managedObjectContext?.save()
+        } catch {
+            let nsError = error as NSError
+            fatalError("Failed to save Core Data changes: \(nsError)")
         }
     }
 }
