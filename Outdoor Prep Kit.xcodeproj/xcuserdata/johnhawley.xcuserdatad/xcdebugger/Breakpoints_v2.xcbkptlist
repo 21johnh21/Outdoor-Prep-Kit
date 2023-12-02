@@ -7,85 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "4A0740B4-C210-49EF-9192-8F0FD18C70D9"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Outdoor Prep Kit/ItemListView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "body"
-            landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "B74F4634-0327-4F4C-8F3C-3366D72E2496"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Outdoor Prep Kit/ItemListView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "body"
-            landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "B74F4634-0327-4F4C-8F3C-3366D72E2496 - 589b419d36fb7d57"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI.NavigationStack&lt;SwiftUI.NavigationPath, Outdoor_Prep_Kit.ItemDetail&gt;, SwiftUI.EmptyView&gt; in Outdoor_Prep_Kit.ItemListView.body.getter : some"
-                  moduleName = "Outdoor Prep Kit"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/johnhawley/Desktop/Outdoor%20Prep%20Kit/Outdoor%20Prep%20Kit/ItemListView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "34"
-                  endingLineNumber = "34"
-                  offsetFromSymbolStart = "804">
-               </Location>
-               <Location
-                  uuid = "B74F4634-0327-4F4C-8F3C-3366D72E2496 - 87978edb221757d1"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; Outdoor_Prep_Kit.ItemDetail in closure #2 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI.NavigationStack&lt;SwiftUI.NavigationPath, Outdoor_Prep_Kit.ItemDetail&gt;, SwiftUI.EmptyView&gt; in Outdoor_Prep_Kit.ItemListView.body.getter : some"
-                  moduleName = "Outdoor Prep Kit"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/johnhawley/Desktop/Outdoor%20Prep%20Kit/Outdoor%20Prep%20Kit/ItemListView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "35"
-                  endingLineNumber = "35"
-                  offsetFromSymbolStart = "80">
-               </Location>
-               <Location
-                  uuid = "B74F4634-0327-4F4C-8F3C-3366D72E2496 - 589b419d36fb7d57"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI.NavigationStack&lt;SwiftUI.NavigationPath, Outdoor_Prep_Kit.ItemDetail&gt;, SwiftUI.EmptyView&gt; in Outdoor_Prep_Kit.ItemListView.body.getter : some"
-                  moduleName = "Outdoor Prep Kit"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/johnhawley/Desktop/Outdoor%20Prep%20Kit/Outdoor%20Prep%20Kit/ItemListView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "34"
-                  endingLineNumber = "34"
-                  offsetFromSymbolStart = "504">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "C0D465E1-B63C-45E4-8A9B-2194F74AC1BF"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -145,22 +66,6 @@
                   offsetFromSymbolStart = "52">
                </Location>
             </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "D50031DC-F967-4B1E-8E96-819855F39D7A"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Outdoor Prep Kit/ItemListView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
-            landmarkName = "body"
-            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ItemDetailDisplay: View {
-    let item : Item
+    @Binding var item : Item
     @Binding var isViewingItemDetail : Bool
     @Binding var isEditing : Bool 
     

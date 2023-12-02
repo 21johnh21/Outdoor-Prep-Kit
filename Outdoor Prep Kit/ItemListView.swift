@@ -30,12 +30,8 @@ struct ItemListView: View {
             }
         }
         .sheet(isPresented: $isViewingItemDetail) {
-            if let selectedItem = selectedItem {
-                NavigationStack {
-                    ItemDetail(item: selectedItem, isViewingItemDetail: $isViewingItemDetail)
-                }
-            }else{
-                
+            NavigationStack {
+                ItemDetail(item: Binding(get: { selectedItem ?? Item() }, set: { selectedItem = $0 }), isViewingItemDetail: $isViewingItemDetail)
             }
         }
         .onAppear {
