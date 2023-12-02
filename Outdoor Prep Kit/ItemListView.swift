@@ -23,7 +23,6 @@ struct ItemListView: View {
                     ItemCard(item: item)
                         .onTapGesture {
                             selectedItem = item
-                            print("\(selectedItem?.name)")
                             isViewingItemDetail = true
                         }
                 }

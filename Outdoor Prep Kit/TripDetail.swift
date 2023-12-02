@@ -20,7 +20,7 @@ struct TripDetail: View {
                     Text(trip.name ?? "Test").font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                     Text(trip.descriptionText ?? "Test").font(.caption)
                 }
-                .padding()
+                .padding([.leading, .trailing])
                 Spacer()
             }
             Spacer()
@@ -33,7 +33,7 @@ struct TripDetail: View {
                     Image(systemName: "plus")
                 }
             }
-            .padding()
+            .padding([.leading, .bottom, .trailing])
             ItemListView(trip: trip, isAddingItem: $isAddingItem)
         }
         .sheet(isPresented: $isAddingItem) {
