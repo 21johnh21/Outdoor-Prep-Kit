@@ -39,7 +39,7 @@ struct AddItemView: View {
                             weight = Double(weightText) ?? 0
                         }
                     Stepper(value: $qty, in: 1...100) {
-                                    Text("\(qty)")
+                        Text("\(qty)")
                     }
                 }
                 

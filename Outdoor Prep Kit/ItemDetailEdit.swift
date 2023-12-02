@@ -39,8 +39,14 @@ struct ItemDetailEdit: View {
                         TextField("Weight", value: Binding(
                             get: { item.weight },
                             set: { item.weight = $0 }
-                        ), formatter: NumberFormatter())
-                            .keyboardType(.decimalPad)
+                        ), formatter: {
+                            let formatter = NumberFormatter()
+                            formatter.numberStyle = .decimal
+                            formatter.minimumFractionDigits = 1
+                            formatter.maximumFractionDigits = 2
+                            return formatter
+                        }())
+                        .keyboardType(.decimalPad)
 
                         Stepper(value: Binding(
                             get: { item.qty },
