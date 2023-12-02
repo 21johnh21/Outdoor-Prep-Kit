@@ -13,6 +13,7 @@ struct ItemDetailEdit: View {
     @Binding var isViewingItemDetail : Bool
     @Binding var isEditing : Bool
     
+    @Environment(\.managedObjectContext) private var viewContext
     @State var weightText = ""
     
     var body: some View {
@@ -63,6 +64,14 @@ struct ItemDetailEdit: View {
                     isEditing = false
                 }
             }
+        }
+    }
+    private func saveContext() {
+        do {
+            try viewContext.save()
+        } catch {
+            let nsError = error as NSError
+            fatalError("Failed to save Core Data changes: \(nsError)")
         }
     }
 }
