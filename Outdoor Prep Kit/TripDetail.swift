@@ -11,6 +11,7 @@ struct TripDetail: View {
     var trip: Trip
     
     @State private var isAddingItem = false
+    @State private var selectedItem: Item? = nil
     
     var body: some View {
         VStack {

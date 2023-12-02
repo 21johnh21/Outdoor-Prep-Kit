@@ -13,18 +13,35 @@ struct ItemListView: View {
     
     @Environment(\.managedObjectContext) private var viewContext
     @State private var items: [Item] = []
+    @State private var isViewingItemDetail = false
+    @State private var selectedItem: Item? = nil
     
     var body: some View {
         NavigationView {
             List{
                 ForEach(items) { item in
                     ItemCard(item: item)
+                        .onTapGesture {
+                            selectedItem = item
+                            print("\(selectedItem?.name)")
+                            isViewingItemDetail = true
+                        }
                 }
                 .onDelete(perform: deleteItem)
             }
         }
+        .sheet(isPresented: $isViewingItemDetail) {
+            if let selectedItem = selectedItem {
+                NavigationStack {
+                    ItemDetail(item: selectedItem, isViewingItemDetail: $isViewingItemDetail)
+                }
+            }else{
+                
+            }
+        }
         .onAppear {
             fetchItems()
+            selectedItem = items.first
         }
         .onChange(of: isAddingItem){
             fetchItems()
