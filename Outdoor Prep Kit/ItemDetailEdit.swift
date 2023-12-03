@@ -13,6 +13,10 @@ struct ItemDetailEdit: View {
     @Binding var isEditing : Bool
     
     @Environment(\.managedObjectContext) private var viewContext
+    @State var name = ""
+    @State var brand = ""
+    @State var model = ""
+    @State var weight = 0.0
     @State var qty = 1
     
     var body: some View {
@@ -20,25 +24,13 @@ struct ItemDetailEdit: View {
             VStack{
                 Form {
                     Section(header: Text("Item Name")) {
-                        TextField("Name", text: Binding(
-                            get: { item.name ?? "" },
-                            set: { item.name = $0 }
-                        ))
+                        TextField("Name", text: $name)
                     }
 
                     Section(header: Text("Item Details")) {
-                        TextField("Brand", text: Binding(
-                            get: { item.brand ?? "" },
-                            set: { item.brand = $0 }
-                        ))
-                        TextField("Model", text: Binding(
-                            get: { item.model ?? "" },
-                            set: { item.model = $0 }
-                        ))
-                        TextField("Weight", value: Binding(
-                            get: { item.weight },
-                            set: { item.weight = $0 }
-                        ), formatter: {
+                        TextField("Brand", text: $brand)
+                        TextField("Model", text: $model)
+                        TextField("Weight", value: $weight, formatter: {
                             let formatter = NumberFormatter()
                             formatter.numberStyle = .decimal
                             formatter.minimumFractionDigits = 1
@@ -55,10 +47,11 @@ struct ItemDetailEdit: View {
             }
         }
         .onAppear{
+            name = item.name ?? ""
+            brand = item.brand ?? ""
+            model = item.model ?? ""
+            weight = item.weight
             qty = Int(item.qty)
-        }
-        .onChange(of: qty){
-            item.qty = Int16(qty)
         }
         .navigationTitle("Edit Item")
         .toolbar {
@@ -71,6 +64,12 @@ struct ItemDetailEdit: View {
         }
     }
     private func saveContext() {
+        item.name = name
+        item.brand = brand
+        item.model = model
+        item.weight = weight
+        item.qty = Int16(qty)
+        
         do {
             try viewContext.save()
         } catch {
