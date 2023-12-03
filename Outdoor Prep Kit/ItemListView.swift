@@ -15,25 +15,17 @@ struct ItemListView: View {
     @State private var items: [Item] = []
     @State private var isViewingItemDetail = false
     @State private var selectedItem: Item? = nil
+    @State private var selection: Item?
     
     var body: some View {
-        NavigationView {
-            List{
+            List(selection: $selection){
                 ForEach(items) { item in
-                    ItemCard(item: item)
-                        .onTapGesture {
-                            selectedItem = item
-                            isViewingItemDetail = true
-                        }
+                    NavigationLink(destination: ItemDetail(item: item)){
+                        ItemCard(item: item)
+                    }
                 }
                 .onDelete(perform: deleteItem)
             }
-        }
-        .sheet(isPresented: $isViewingItemDetail) {
-            NavigationStack {
-                ItemDetail(item: Binding(get: { selectedItem ?? Item() }, set: { selectedItem = $0 }), isViewingItemDetail: $isViewingItemDetail)
-            }
-        }
         .onAppear {
             fetchItems()
             selectedItem = items.first
@@ -70,7 +62,3 @@ struct ItemListView: View {
         }
     }
 }
-
-//#Preview {
-//    ItemListView()
-//}

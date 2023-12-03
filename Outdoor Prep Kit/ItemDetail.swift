@@ -8,20 +8,15 @@
 import SwiftUI
 
 struct ItemDetail: View {
-    @Binding var item : Item
-    @Binding var isViewingItemDetail : Bool
+    var item : Item
     
     @State private var isEditing = false
     
     var body: some View {
         if (!isEditing){
-            ItemDetailDisplay(item: $item, isViewingItemDetail: $isViewingItemDetail, isEditing: $isEditing)
+            ItemDetailDisplay(item: item, isEditing: $isEditing)
         }else{
-            ItemDetailEdit(item: $item, isViewingItemDetail: $isViewingItemDetail, isEditing: $isEditing)
+            ItemDetailEdit(item: item, isEditing: $isEditing)
         }
     }
 }
-
-//#Preview {
-//    ItemDetail()
-//}

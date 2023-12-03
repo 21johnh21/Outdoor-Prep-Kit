@@ -9,8 +9,7 @@ import SwiftUI
 import Combine
 
 struct ItemDetailEdit: View {
-    @Binding var item : Item
-    @Binding var isViewingItemDetail : Bool
+    var item : Item
     @Binding var isEditing : Bool
     
     @Environment(\.managedObjectContext) private var viewContext
