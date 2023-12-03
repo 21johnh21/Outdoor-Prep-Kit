@@ -13,7 +13,7 @@ struct ItemDetailEdit: View {
     @Binding var isEditing : Bool
     
     @Environment(\.managedObjectContext) private var viewContext
-    @State var weightText = ""
+    @State var qty = 1
     
     var body: some View {
         HStack{
@@ -47,15 +47,18 @@ struct ItemDetailEdit: View {
                         }())
                         .keyboardType(.decimalPad)
 
-                        Stepper(value: Binding(
-                            get: { item.qty },
-                            set: { item.qty = $0 }
-                        ), in: 1...100) {
-                            Text("Quantity: \(item.qty)")
+                        Stepper(value: $qty, in: 1...100) {
+                            Text("Quantity: \(qty)")
                         }
                     }
                 }
             }
+        }
+        .onAppear{
+            qty = Int(item.qty)
+        }
+        .onChange(of: qty){
+            item.qty = Int16(qty)
         }
         .navigationTitle("Edit Item")
         .toolbar {
