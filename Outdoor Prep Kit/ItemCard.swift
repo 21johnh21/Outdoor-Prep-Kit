@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ItemCard: View {
-    let item: Item
+    @ObservedObject var item: Item
     
     @State private var isPacked: Bool
     init(item: Item) {
