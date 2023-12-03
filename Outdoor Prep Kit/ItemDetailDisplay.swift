@@ -26,11 +26,6 @@ struct ItemDetailDisplay: View {
             }
             .navigationTitle("\(item.name ?? " ")")
             .toolbar {
-                ToolbarItem(placement: .cancellationAction) {
-                    Button("Dismiss") {
-                        dismiss()
-                    }
-                }
                 ToolbarItem(placement: .primaryAction) {
                     Button("Edit") {
                         isEditing = true

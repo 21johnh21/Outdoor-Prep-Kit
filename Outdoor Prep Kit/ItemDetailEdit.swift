@@ -59,14 +59,10 @@ struct ItemDetailEdit: View {
         }
         .navigationTitle("Edit Item")
         .toolbar {
-            ToolbarItem(placement: .cancellationAction) {
-                Button("Cancel") {
-                    isEditing = false
-                }
-            }
             ToolbarItem(placement: .primaryAction) {
                 Button("Save") {
                     isEditing = false
+                    saveContext()
                 }
             }
         }
