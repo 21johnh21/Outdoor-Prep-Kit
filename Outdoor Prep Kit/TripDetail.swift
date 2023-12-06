@@ -15,7 +15,12 @@ struct TripDetail: View {
     
     var body: some View {
         if (isEditing){
-            TripEdit(trip: trip, isEditing: $isEditing)
+            TripEdit(trip: trip, isEditing: $isEditing, isAddingItem: $isAddingItem)
+                .sheet(isPresented: $isAddingItem) {
+                    NavigationStack {
+                        AddItemView(trip: trip)
+                    }
+                }
         }else{
             VStack {
                 HStack {

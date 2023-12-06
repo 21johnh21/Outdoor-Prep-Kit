@@ -10,6 +10,7 @@ import SwiftUI
 struct TripEdit: View {
     var trip: Trip
     @Binding var isEditing : Bool 
+    @Binding var isAddingItem : Bool
     
     @Environment(\.dismiss) private var dismiss
     @Environment(\.managedObjectContext) private var viewContext
@@ -49,6 +50,7 @@ struct TripEdit: View {
             name = trip.name ?? ""
             descriptionText = trip.descriptionText ?? ""
         }
+        ItemListView(trip: trip, isAddingItem: $isAddingItem)
     }
     private func saveContext() {
         trip.name = name
