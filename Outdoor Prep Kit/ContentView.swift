@@ -37,11 +37,6 @@ struct ContentView: View {
                 .presentationDetents([.medium, .large])
             }
             .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button("Edit") {
-                        // Your edit action here
-                    }
-                }
                 ToolbarItem {
                     Button(action: {
                         isAddingTrip = true}) {

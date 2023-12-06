@@ -11,39 +11,46 @@ struct TripDetail: View {
     var trip: Trip
     
     @State private var isAddingItem = false
-    @State private var selectedItem: Item? = nil
+    @State private var isEditing = false
     
     var body: some View {
-        VStack {
-            HStack {
-                VStack(alignment: .leading){
-                    Text(trip.name ?? "Test").font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
-                    Text(trip.descriptionText ?? "Test").font(.caption)
+        if (isEditing){
+            TripEdit(trip: trip, isEditing: $isEditing)
+        }else{
+            VStack {
+                HStack {
+                    VStack(alignment: .leading){
+                        Text(trip.name ?? "Test").font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                        Text(trip.descriptionText ?? "Test").font(.caption)
+                    }
+                    .padding([.leading, .trailing])
+                    Spacer()
                 }
-                .padding([.leading, .trailing])
                 Spacer()
+                HStack{
+                    Text("Items").font(.headline)
+                    Spacer()
+                    Button(action: {
+                        isAddingItem = true
+                    }) {
+                        Image(systemName: "plus")
+                    }
+                }
+                .padding([.leading, .bottom, .trailing])
+                ItemListView(trip: trip, isAddingItem: $isAddingItem)
             }
-            Spacer()
-            HStack{
-                Text("Items").font(.headline)
-                Spacer()
-                Button(action: {
-                    isAddingItem = true
-                }) {
-                    Image(systemName: "plus")
+            .sheet(isPresented: $isAddingItem) {
+                NavigationStack {
+                    AddItemView(trip: trip)
                 }
             }
-            .padding([.leading, .bottom, .trailing])
-            ItemListView(trip: trip, isAddingItem: $isAddingItem)
-        }
-        .sheet(isPresented: $isAddingItem) {
-            NavigationStack {
-                AddItemView(trip: trip)
+            .toolbar{
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button("Edit") {
+                        isEditing = true
+                    }
+                }
             }
         }
     }
 }
-
-//#Preview {
-//    TripDetail()
-//}
