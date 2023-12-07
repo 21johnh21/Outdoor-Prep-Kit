@@ -33,7 +33,7 @@ struct AddItemView: View {
                     TextField("Brand", text: $brand)
                     TextField("Model", text: $model)
                     TextField("weight", text: $weightText)
-                        .keyboardType(.numberPad)
+                        .keyboardType(.decimalPad)
                         .onReceive(Just(weightText)) { newValue in
                             weightText = newValue.filter { $0.isNumber || $0 == "." }
                             weight = Double(weightText) ?? 0
