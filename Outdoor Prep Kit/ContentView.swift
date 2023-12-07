@@ -17,6 +17,7 @@ struct ContentView: View {
     private var trips: FetchedResults<Trip>
     @State private var isAddingTrip = false
     @State private var selection: Trip?
+    @State private var showAlert = false
 
     var body: some View {
         NavigationView {
@@ -39,10 +40,24 @@ struct ContentView: View {
             .toolbar {
                 ToolbarItem {
                     Button(action: {
-                        isAddingTrip = true}) {
+                        CloudKitHelper.checkICloudAccountStatus { isICloudAvailable in
+                            if isICloudAvailable {
+                                isAddingTrip = true
+                            } else {
+                                showAlert = true
+                            }
+                        }
+                    }) {
                         Image(systemName: "plus")
                     }
                 }
+            }
+            .alert(isPresented: $showAlert) {
+                Alert(
+                    title: Text("iCloud Not Available"),
+                    message: Text("Please sign in to iCloud to use this feature."),
+                    dismissButton: .default(Text("OK"))
+                )
             }
         }
     }

@@ -11,6 +11,7 @@
 		F8180CDA2B1BE3D700B52F59 /* ItemDetailDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8180CD92B1BE3D700B52F59 /* ItemDetailDisplay.swift */; };
 		F8180CDC2B1BE3E100B52F59 /* ItemDetailEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8180CDB2B1BE3E100B52F59 /* ItemDetailEdit.swift */; };
 		F84605B02B1FF08000B4D910 /* TripEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84605AF2B1FF08000B4D910 /* TripEdit.swift */; };
+		F84605B22B215CDA00B4D910 /* CloudKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84605B12B215CDA00B4D910 /* CloudKitHelper.swift */; };
 		F8BE91AF2B13A38C00E7BE86 /* Outdoor_Prep_KitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BE91AE2B13A38C00E7BE86 /* Outdoor_Prep_KitApp.swift */; };
 		F8BE91B12B13A38C00E7BE86 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BE91B02B13A38C00E7BE86 /* Persistence.swift */; };
 		F8BE91B42B13A38C00E7BE86 /* Outdoor_Prep_Kit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F8BE91B22B13A38C00E7BE86 /* Outdoor_Prep_Kit.xcdatamodeld */; };
@@ -30,6 +31,7 @@
 		F8180CD92B1BE3D700B52F59 /* ItemDetailDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailDisplay.swift; sourceTree = "<group>"; };
 		F8180CDB2B1BE3E100B52F59 /* ItemDetailEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailEdit.swift; sourceTree = "<group>"; };
 		F84605AF2B1FF08000B4D910 /* TripEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripEdit.swift; sourceTree = "<group>"; };
+		F84605B12B215CDA00B4D910 /* CloudKitHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitHelper.swift; sourceTree = "<group>"; };
 		F8BE91AB2B13A38C00E7BE86 /* Outdoor Prep Kit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Outdoor Prep Kit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8BE91AE2B13A38C00E7BE86 /* Outdoor_Prep_KitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Outdoor_Prep_KitApp.swift; sourceTree = "<group>"; };
 		F8BE91B02B13A38C00E7BE86 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			children = (
 				F8BE91AE2B13A38C00E7BE86 /* Outdoor_Prep_KitApp.swift */,
 				F8BE91B02B13A38C00E7BE86 /* Persistence.swift */,
+				F84605B12B215CDA00B4D910 /* CloudKitHelper.swift */,
 				F8BE91B52B13A38C00E7BE86 /* ContentView.swift */,
 				F8BE91C22B13BCE100E7BE86 /* TripCard.swift */,
 				F8BE91C62B13E0DA00E7BE86 /* AddTripView.swift */,
@@ -179,6 +182,7 @@
 				F8180CD82B196C3B00B52F59 /* ItemDetail.swift in Sources */,
 				F84605B02B1FF08000B4D910 /* TripEdit.swift in Sources */,
 				F8BE91CD2B16C30E00E7BE86 /* AddItemView.swift in Sources */,
+				F84605B22B215CDA00B4D910 /* CloudKitHelper.swift in Sources */,
 				F8BE91AF2B13A38C00E7BE86 /* Outdoor_Prep_KitApp.swift in Sources */,
 				F8BE91C92B13F8F400E7BE86 /* TripDetail.swift in Sources */,
 				F8180CDC2B1BE3E100B52F59 /* ItemDetailEdit.swift in Sources */,

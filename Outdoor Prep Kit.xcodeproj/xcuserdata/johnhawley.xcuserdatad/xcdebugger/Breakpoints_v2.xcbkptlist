@@ -3,4 +3,69 @@
    uuid = "C50FC9AA-7CD0-499F-B0FA-2AFEA778C26F"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "98D2C8EA-772B-473E-A569-B0F128BB4ABD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Outdoor Prep Kit/CloudKit.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "checkICloudAccountStatus(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "98D2C8EA-772B-473E-A569-B0F128BB4ABD - 4114247cbe034288"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Outdoor_Prep_Kit.CloudKitHelper.checkICloudAccountStatus(completion: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "Outdoor Prep Kit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhawley/Desktop/Outdoor%20Prep%20Kit/Outdoor%20Prep%20Kit/CloudKit.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "98D2C8EA-772B-473E-A569-B0F128BB4ABD - a7af86570f6b8f3e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (__C.CKAccountStatus, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static Outdoor_Prep_Kit.CloudKitHelper.checkICloudAccountStatus(completion: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "Outdoor Prep Kit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhawley/Desktop/Outdoor%20Prep%20Kit/Outdoor%20Prep%20Kit/CloudKit.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "200">
+               </Location>
+               <Location
+                  uuid = "98D2C8EA-772B-473E-A569-B0F128BB4ABD - a7af86570f6b8f3e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (__C.CKAccountStatus, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static Outdoor_Prep_Kit.CloudKitHelper.checkICloudAccountStatus(completion: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "Outdoor Prep Kit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhawley/Desktop/Outdoor%20Prep%20Kit/Outdoor%20Prep%20Kit/CloudKit.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "240">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
