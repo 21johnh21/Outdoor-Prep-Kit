@@ -1,0 +1,67 @@
+[
+    {
+        "model": "Copper Spur",
+        "weight": 20.2,
+        "brand": "Big Agnes",
+        "tripIDs":
+        [
+            "defd6e5c-872f-11ee-b9d1-0242ac120002", "def01b52-872f-11ee-b9d1-0242ac120002"
+        ],
+        "category": "Shelter",
+        "id": "def899fe-872f-11ee-b9d1-0242ac120002",
+        "qty": 1,
+        "name": "Tent"
+    },
+    {
+        "weight": 40.5,
+        "model": "One Bag Sleeping Bag",
+        "brand": "The North Face",
+        "category": "Sleep",
+        "tripIDs":
+        [
+            "defd6e5c-872f-11ee-b9d1-0242ac120002", "def01b52-872f-11ee-b9d1-0242ac120002"
+        ],
+        "qty": 1,
+        "name": "Sleeping Bag",
+        "id": "def89f6c-872f-11ee-b9d1-0242ac120002"
+    },
+    {
+        "tripIDs":
+        [
+            "defd6e5c-872f-11ee-b9d1-0242ac120002", "def01b52-872f-11ee-b9d1-0242ac120002"
+        ],
+        "qty": 1,
+        "weight": 13.8,
+        "name": "Sleeping Pad",
+        "model": "Ultralight Sleeping Pad",
+        "brand": "NEMO Tensor",
+        "category": "",
+        "id": "def8a098-872f-11ee-b9d1-0242ac120002"
+    },
+    {
+        "qty": 1,
+        "weight": 2.6,
+        "brand": "MSR",
+        "tripIDs":
+        [
+            "defd6e5c-872f-11ee-b9d1-0242ac120002", "def01b52-872f-11ee-b9d1-0242ac120002"
+        ],
+        "category": "Cooking",
+        "name": "Stove",
+        "model": "PocketRocket",
+        "id": "def8a1c4-872f-11ee-b9d1-0242ac120002"
+    },
+    {
+        "weight": 64.5,
+        "qty": 1,
+        "brand": "Osprey",
+        "category": "Pack",
+        "tripIDs":
+        [
+            "defd6e5c-872f-11ee-b9d1-0242ac120002", "def01b52-872f-11ee-b9d1-0242ac120002"
+        ],
+        "model": "Atmos AG 50 Pack",
+        "name": "Backpack",
+        "id": "def8a2be-872f-11ee-b9d1-0242ac120002"
+    }
+]

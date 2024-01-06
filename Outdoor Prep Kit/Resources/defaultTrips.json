@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Hiking",
+        "description": "Single day hike.",
+        "id": "defd6e5c-872f-11ee-b9d1-0242ac120002"
+    },
+    {
+        "description": "Multi day hike with nights outdoors",
+        "name": "Backpacking",
+        "id": "def01b52-872f-11ee-b9d1-0242ac120002"
+    }
+]

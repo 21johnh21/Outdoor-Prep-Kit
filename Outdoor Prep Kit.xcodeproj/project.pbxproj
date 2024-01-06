@@ -12,6 +12,14 @@
 		F8180CDC2B1BE3E100B52F59 /* ItemDetailEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8180CDB2B1BE3E100B52F59 /* ItemDetailEdit.swift */; };
 		F84605B02B1FF08000B4D910 /* TripEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84605AF2B1FF08000B4D910 /* TripEdit.swift */; };
 		F84605B22B215CDA00B4D910 /* CloudKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84605B12B215CDA00B4D910 /* CloudKitHelper.swift */; };
+		F8B5A9472B49BB270042FEFC /* defaultItems.json in Resources */ = {isa = PBXBuildFile; fileRef = F8B5A9462B49BB270042FEFC /* defaultItems.json */; };
+		F8B5A9492B49BB380042FEFC /* defaultTrips.json in Resources */ = {isa = PBXBuildFile; fileRef = F8B5A9482B49BB380042FEFC /* defaultTrips.json */; };
+		F8B5A94B2B49BDD50042FEFC /* CopyTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B5A94A2B49BDD50042FEFC /* CopyTripView.swift */; };
+		F8B5A94F2B49C2E70042FEFC /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B5A94E2B49C2E70042FEFC /* Item.swift */; };
+		F8B5A9512B49C2ED0042FEFC /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B5A9502B49C2ED0042FEFC /* Items.swift */; };
+		F8B5A9532B49C2F20042FEFC /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B5A9522B49C2F20042FEFC /* Trip.swift */; };
+		F8B5A9552B49C2F70042FEFC /* Trips.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B5A9542B49C2F70042FEFC /* Trips.swift */; };
+		F8B5A9572B49C6F10042FEFC /* TripDefCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B5A9562B49C6F10042FEFC /* TripDefCard.swift */; };
 		F8BE91AF2B13A38C00E7BE86 /* Outdoor_Prep_KitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BE91AE2B13A38C00E7BE86 /* Outdoor_Prep_KitApp.swift */; };
 		F8BE91B12B13A38C00E7BE86 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BE91B02B13A38C00E7BE86 /* Persistence.swift */; };
 		F8BE91B42B13A38C00E7BE86 /* Outdoor_Prep_Kit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F8BE91B22B13A38C00E7BE86 /* Outdoor_Prep_Kit.xcdatamodeld */; };
@@ -32,6 +40,14 @@
 		F8180CDB2B1BE3E100B52F59 /* ItemDetailEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailEdit.swift; sourceTree = "<group>"; };
 		F84605AF2B1FF08000B4D910 /* TripEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripEdit.swift; sourceTree = "<group>"; };
 		F84605B12B215CDA00B4D910 /* CloudKitHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitHelper.swift; sourceTree = "<group>"; };
+		F8B5A9462B49BB270042FEFC /* defaultItems.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = defaultItems.json; sourceTree = "<group>"; };
+		F8B5A9482B49BB380042FEFC /* defaultTrips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = defaultTrips.json; sourceTree = "<group>"; };
+		F8B5A94A2B49BDD50042FEFC /* CopyTripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyTripView.swift; sourceTree = "<group>"; };
+		F8B5A94E2B49C2E70042FEFC /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		F8B5A9502B49C2ED0042FEFC /* Items.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
+		F8B5A9522B49C2F20042FEFC /* Trip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		F8B5A9542B49C2F70042FEFC /* Trips.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trips.swift; sourceTree = "<group>"; };
+		F8B5A9562B49C6F10042FEFC /* TripDefCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDefCard.swift; sourceTree = "<group>"; };
 		F8BE91AB2B13A38C00E7BE86 /* Outdoor Prep Kit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Outdoor Prep Kit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8BE91AE2B13A38C00E7BE86 /* Outdoor_Prep_KitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Outdoor_Prep_KitApp.swift; sourceTree = "<group>"; };
 		F8BE91B02B13A38C00E7BE86 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -59,6 +75,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F8B5A9452B49BB0D0042FEFC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F8B5A9462B49BB270042FEFC /* defaultItems.json */,
+				F8B5A9482B49BB380042FEFC /* defaultTrips.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		F8BE91A22B13A38B00E7BE86 = {
 			isa = PBXGroup;
 			children = (
@@ -78,12 +103,18 @@
 		F8BE91AD2B13A38C00E7BE86 /* Outdoor Prep Kit */ = {
 			isa = PBXGroup;
 			children = (
+				F8B5A94E2B49C2E70042FEFC /* Item.swift */,
+				F8B5A9502B49C2ED0042FEFC /* Items.swift */,
+				F8B5A9522B49C2F20042FEFC /* Trip.swift */,
+				F8B5A9542B49C2F70042FEFC /* Trips.swift */,
 				F8BE91AE2B13A38C00E7BE86 /* Outdoor_Prep_KitApp.swift */,
 				F8BE91B02B13A38C00E7BE86 /* Persistence.swift */,
 				F84605B12B215CDA00B4D910 /* CloudKitHelper.swift */,
 				F8BE91B52B13A38C00E7BE86 /* ContentView.swift */,
 				F8BE91C22B13BCE100E7BE86 /* TripCard.swift */,
 				F8BE91C62B13E0DA00E7BE86 /* AddTripView.swift */,
+				F8B5A94A2B49BDD50042FEFC /* CopyTripView.swift */,
+				F8B5A9562B49C6F10042FEFC /* TripDefCard.swift */,
 				F84605AF2B1FF08000B4D910 /* TripEdit.swift */,
 				F8BE91C82B13F8F400E7BE86 /* TripDetail.swift */,
 				F8BE91CA2B16BC0C00E7BE86 /* ItemListView.swift */,
@@ -92,6 +123,7 @@
 				F8180CD72B196C3B00B52F59 /* ItemDetail.swift */,
 				F8180CD92B1BE3D700B52F59 /* ItemDetailDisplay.swift */,
 				F8180CDB2B1BE3E100B52F59 /* ItemDetailEdit.swift */,
+				F8B5A9452B49BB0D0042FEFC /* Resources */,
 				F8BE91B72B13A38D00E7BE86 /* Assets.xcassets */,
 				F8BE91B92B13A38D00E7BE86 /* Outdoor_Prep_Kit.entitlements */,
 				F8BE91B22B13A38C00E7BE86 /* Outdoor_Prep_Kit.xcdatamodeld */,
@@ -166,8 +198,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8B5A9472B49BB270042FEFC /* defaultItems.json in Resources */,
 				F8BE91BC2B13A38D00E7BE86 /* Preview Assets.xcassets in Resources */,
 				F8BE91B82B13A38D00E7BE86 /* Assets.xcassets in Resources */,
+				F8B5A9492B49BB380042FEFC /* defaultTrips.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,13 +212,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8B5A9552B49C2F70042FEFC /* Trips.swift in Sources */,
 				F8BE91B42B13A38C00E7BE86 /* Outdoor_Prep_Kit.xcdatamodeld in Sources */,
+				F8B5A94B2B49BDD50042FEFC /* CopyTripView.swift in Sources */,
+				F8B5A94F2B49C2E70042FEFC /* Item.swift in Sources */,
 				F8180CD82B196C3B00B52F59 /* ItemDetail.swift in Sources */,
+				F8B5A9512B49C2ED0042FEFC /* Items.swift in Sources */,
 				F84605B02B1FF08000B4D910 /* TripEdit.swift in Sources */,
+				F8B5A9572B49C6F10042FEFC /* TripDefCard.swift in Sources */,
 				F8BE91CD2B16C30E00E7BE86 /* AddItemView.swift in Sources */,
 				F84605B22B215CDA00B4D910 /* CloudKitHelper.swift in Sources */,
 				F8BE91AF2B13A38C00E7BE86 /* Outdoor_Prep_KitApp.swift in Sources */,
 				F8BE91C92B13F8F400E7BE86 /* TripDetail.swift in Sources */,
+				F8B5A9532B49C2F20042FEFC /* Trip.swift in Sources */,
 				F8180CDC2B1BE3E100B52F59 /* ItemDetailEdit.swift in Sources */,
 				F8BE91CF2B1812E700E7BE86 /* ItemCard.swift in Sources */,
 				F8180CDA2B1BE3D700B52F59 /* ItemDetailDisplay.swift in Sources */,

@@ -18,6 +18,7 @@ struct ContentView: View {
     @State private var isAddingTrip = false
     @State private var selection: Trip?
     @State private var showAlert = false
+    @State private var isCopyingTrip = false
 
     var body: some View {
         NavigationView {
@@ -37,6 +38,12 @@ struct ContentView: View {
             }
                 .presentationDetents([.medium, .large])
             }
+            .sheet(isPresented: $isCopyingTrip) {
+                NavigationStack {
+                    CopyTripView()
+            }
+                .presentationDetents([.medium, .large])
+            }
             .toolbar {
                 ToolbarItem {
                     Button(action: {
@@ -49,6 +56,13 @@ struct ContentView: View {
                         }
                     }) {
                         Image(systemName: "plus")
+                    }
+                }
+                ToolbarItem{
+                    Button(action: {
+                        isCopyingTrip = true
+                    }) {
+                        Image(systemName: "doc.on.doc.fill")
                     }
                 }
             }
