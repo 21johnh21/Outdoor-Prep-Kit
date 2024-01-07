@@ -18,6 +18,7 @@ struct ItemDetailEdit: View {
     @State var model = ""
     @State var weight = 0.0
     @State var qty = 1
+    @State var category = ""
     
     var body: some View {
         HStack{
@@ -42,6 +43,7 @@ struct ItemDetailEdit: View {
                         Stepper(value: $qty, in: 1...100) {
                             Text("Quantity: \(qty)")
                         }
+                        TextField("Category", text: $category)
                     }
                 }
             }
@@ -52,6 +54,7 @@ struct ItemDetailEdit: View {
             model = item.model ?? ""
             weight = item.weight
             qty = Int(item.qty)
+            category = item.category ?? ""
         }
         .navigationTitle("Edit Item")
         .toolbar {
@@ -69,6 +72,7 @@ struct ItemDetailEdit: View {
         item.model = model
         item.weight = weight
         item.qty = Int16(qty)
+        item.category = category
         
         do {
             try viewContext.save()

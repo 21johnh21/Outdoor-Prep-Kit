@@ -20,6 +20,7 @@ struct ItemDetailDisplay: View {
                     Text((item.brand ?? "") + " " + (item.model ?? ""))
                     Text(String(item.weight)+" oz.")
                     Text(String(item.qty))
+                    Text(String(item.category ?? ""))
                     Spacer()
                 }.padding()
                 Spacer()
