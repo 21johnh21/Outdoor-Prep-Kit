@@ -11,6 +11,14 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "TripDefCard.SaveTrip():TripDefCard.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "trip">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "closure #2 in ItemListView.body.getter:ItemListView.swift">
          <PersistentStrings>
             <PersistentString

@@ -3,4 +3,54 @@
    uuid = "C50FC9AA-7CD0-499F-B0FA-2AFEA778C26F"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EDD27887-B979-4624-8F06-C026489521B8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Outdoor Prep Kit/TripDefCard.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "SaveTrip()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EDD27887-B979-4624-8F06-C026489521B8 - e60399abaef7612d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Outdoor_Prep_Kit.TripDefCard.SaveTrip() -&gt; ()"
+                  moduleName = "Outdoor Prep Kit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhawley/Desktop/Outdoor%20Prep%20Kit/Outdoor%20Prep%20Kit/TripDefCard.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  uuid = "EDD27887-B979-4624-8F06-C026489521B8 - e60399abaef7614c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Outdoor_Prep_Kit.TripDefCard.SaveTrip() -&gt; ()"
+                  moduleName = "Outdoor Prep Kit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhawley/Desktop/Outdoor%20Prep%20Kit/Outdoor%20Prep%20Kit/TripDefCard.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "216">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
