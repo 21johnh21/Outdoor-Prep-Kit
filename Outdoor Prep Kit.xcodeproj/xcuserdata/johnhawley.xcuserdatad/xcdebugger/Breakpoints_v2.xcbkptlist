@@ -32,10 +32,10 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "27"
                   endingLineNumber = "27"
-                  offsetFromSymbolStart = "216">
+                  offsetFromSymbolStart = "476">
                </Location>
                <Location
-                  uuid = "EDD27887-B979-4624-8F06-C026489521B8 - e60399abaef7614c"
+                  uuid = "EDD27887-B979-4624-8F06-C026489521B8 - e60399abaef7612d"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -45,9 +45,9 @@
                   urlString = "file:///Users/johnhawley/Desktop/Outdoor%20Prep%20Kit/Outdoor%20Prep%20Kit/TripDefCard.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "26"
-                  endingLineNumber = "26"
-                  offsetFromSymbolStart = "216">
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "428">
                </Location>
             </Locations>
          </BreakpointContent>
