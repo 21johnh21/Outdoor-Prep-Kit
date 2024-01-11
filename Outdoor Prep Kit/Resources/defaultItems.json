@@ -5,7 +5,7 @@
         "brand": "Big Agnes",
         "tripIDs":
         [
-            "defd6e5c-872f-11ee-b9d1-0242ac120002", "def01b52-872f-11ee-b9d1-0242ac120002"
+            "defd6e5c-872f-11ee-b9d1-0242ac120002"
         ],
         "category": "Shelter",
         "id": "def899fe-872f-11ee-b9d1-0242ac120002",
@@ -19,7 +19,7 @@
         "category": "Sleep",
         "tripIDs":
         [
-            "defd6e5c-872f-11ee-b9d1-0242ac120002", "def01b52-872f-11ee-b9d1-0242ac120002"
+            "defd6e5c-872f-11ee-b9d1-0242ac120002"
         ],
         "qty": 1,
         "name": "Sleeping Bag",
@@ -28,7 +28,7 @@
     {
         "tripIDs":
         [
-            "defd6e5c-872f-11ee-b9d1-0242ac120002", "def01b52-872f-11ee-b9d1-0242ac120002"
+            "defd6e5c-872f-11ee-b9d1-0242ac120002"
         ],
         "qty": 1,
         "weight": 13.8,
@@ -44,7 +44,7 @@
         "brand": "MSR",
         "tripIDs":
         [
-            "defd6e5c-872f-11ee-b9d1-0242ac120002", "def01b52-872f-11ee-b9d1-0242ac120002"
+            "defd6e5c-872f-11ee-b9d1-0242ac120002"
         ],
         "category": "Cooking",
         "name": "Stove",
@@ -58,10 +58,388 @@
         "category": "Pack",
         "tripIDs":
         [
-            "defd6e5c-872f-11ee-b9d1-0242ac120002", "def01b52-872f-11ee-b9d1-0242ac120002"
+            "defd6e5c-872f-11ee-b9d1-0242ac120002"
         ],
         "model": "Atmos AG 50 Pack",
         "name": "Backpack",
         "id": "def8a2be-872f-11ee-b9d1-0242ac120002"
-    }
+    },
+    {
+            "model": "Daylite Pack",
+            "weight": 0,
+            "brand": "Osprey",
+            "tripIDs":
+            [
+                "defd6e5c-872f-11ee-b9d1-0242ac120002",
+                "def01b52-872f-11ee-b9d1-0242ac120002"
+            ],
+            "category": "Carry",
+            "id": "def899fe-872f-11ee-b9d1-0242ac120002",
+            "qty": 1,
+            "name": "Backpack"
+        },
+        {
+            "weight": 0,
+            "model": "",
+            "brand": "",
+            "tripIDs":
+            [
+                "defd6e5c-872f-11ee-b9d1-0242ac120002",
+                "def01b52-872f-11ee-b9d1-0242ac120002"
+            ],
+            "category": "Navigation",
+            "id": "def899fe-872f-11ee-b9d1-0242ac120002",
+            "qty": 1,
+            "name": "Map"
+        },
+        {
+            "weight": 0,
+            "model": "Truarc15 Luminescent Compass",
+            "brand": "Brunton",
+            "tripIDs":
+            [
+                "defd6e5c-872f-11ee-b9d1-0242ac120002",
+                "def01b52-872f-11ee-b9d1-0242ac120002"
+            ],
+            "category": "Navigation",
+            "id": "def899fe-872f-11ee-b9d1-0242ac120002",
+            "qty": 1,
+            "name": "Compass"
+        },
+        {
+            "weight": 0,
+            "model": "GPSMAP 65s",
+            "brand": "Garmin",
+            "tripIDs":
+            [
+                "defd6e5c-872f-11ee-b9d1-0242ac120002",
+                "def01b52-872f-11ee-b9d1-0242ac120002"
+            ],
+            "category": "Navigation",
+            "id": "def899fe-872f-11ee-b9d1-0242ac120002",
+            "qty": 1,
+            "name": "GPS"
+        },
+        {
+            "model": "Sustain Graphic Wide-Mouth Water Bottle - 48 fl. oz.",
+            "weight": 0,
+            "brand": "REI Co-op Nalgene",
+            "tripIDs":
+            [
+                "defd6e5c-872f-11ee-b9d1-0242ac120002",
+                "def01b52-872f-11ee-b9d1-0242ac120002"
+            ],
+            "category": "Hydration",
+            "id": "def899fe-872f-11ee-b9d1-0242ac120002",
+            "qty": 1,
+            "name": "Hydration"
+        },
+        {
+            "model": "Iodine and Taste-Neutralizer Tablets",
+            "weight": 0,
+            "brand": "Potable Aqua",
+            "tripIDs":
+            [
+                "defd6e5c-872f-11ee-b9d1-0242ac120002",
+                "def01b52-872f-11ee-b9d1-0242ac120002"
+            ],
+            "category": "Hydration",
+            "id": "def899fe-872f-11ee-b9d1-0242ac120002",
+            "qty": 1,
+            "name": "Water purification"
+        },
+        {
+            "model": "Sahara Long-Sleeve T-Shirt - Men's",
+            "weight": 0,
+            "brand": "REI Co-op",
+            "tripIDs":
+            [
+                "defd6e5c-872f-11ee-b9d1-0242ac120002",
+                "def01b52-872f-11ee-b9d1-0242ac120002"
+            ],
+            "category": "Clothing",
+            "id": "def899fe-872f-11ee-b9d1-0242ac120002",
+            "qty": 1,
+            "name": "Moisture-wicking shirt"
+        },
+        {
+            "model": "Trailmade Pants",
+            "weight": 0,
+            "brand": "REI Co-op",
+            "tripIDs":
+            [
+                "defd6e5c-872f-11ee-b9d1-0242ac120002",
+                "def01b52-872f-11ee-b9d1-0242ac120002"
+            ],
+            "category": "Clothing",
+            "id": "def899fe-872f-11ee-b9d1-0242ac120002",
+            "qty": 1,
+            "name": "Pants"
+        },
+        {
+            "model": "Bora Bora Booney II Hat",
+            "weight": 0,
+            "brand": "Columbia",
+            "tripIDs":
+            [
+                "defd6e5c-872f-11ee-b9d1-0242ac120002",
+                "def01b52-872f-11ee-b9d1-0242ac120002"
+            ],
+            "category": "Clothing",
+            "id": "def899fe-872f-11ee-b9d1-0242ac120002",
+            "qty": 1,
+            "name": "Hat"
+        },
+        {
+            "model": "Kaupo Gap Polarized Sunglasses",
+            "weight": 0,
+            "brand": "Maui Jim",
+            "tripIDs":
+            [
+                "defd6e5c-872f-11ee-b9d1-0242ac120002",
+                "def01b52-872f-11ee-b9d1-0242ac120002"
+            ],
+            "category": "Clothing",
+            "id": "def899fe-872f-11ee-b9d1-0242ac120002",
+            "qty": 1,
+            "name": "Sunglasses"
+        },
+        {
+            "model": "Hiker Micro Crew Cushion Socks - Men's",
+            "weight": 0,
+            "brand": "Darn Tough",
+            "tripIDs":
+            [
+                "defd6e5c-872f-11ee-b9d1-0242ac120002",
+                "def01b52-872f-11ee-b9d1-0242ac120002"
+            ],
+            "category": "Clothing",
+            "id": "def899fe-872f-11ee-b9d1-0242ac120002",
+            "qty": 1,
+            "name": "Hiking socks"
+        },
+        {
+            "model": "Targhee III Waterproof Mid Hiking Boots",
+            "weight": 0,
+            "brand": "Keen",
+            "tripIDs":
+            [
+                "defd6e5c-872f-11ee-b9d1-0242ac120002",
+                "def01b52-872f-11ee-b9d1-0242ac120002"
+            ],
+            "category": "Clothing",
+            "id": "def899fe-872f-11ee-b9d1-0242ac120002",
+            "qty": 1,
+            "name": "Boots"
+        },
+        {
+            "model": "Clear Zinc SPF 50 Sunscreen",
+            "weight": 0,
+            "brand": "Thinksport",
+            "tripIDs":
+            [
+                "defd6e5c-872f-11ee-b9d1-0242ac120002",
+                "def01b52-872f-11ee-b9d1-0242ac120002"
+            ],
+            "category": "Sun Protection",
+            "id": "def899fe-872f-11ee-b9d1-0242ac120002",
+            "qty": 1,
+            "name": "Sunscreen"
+        },
+        {
+            "model": "Beeswax Lip Balm",
+            "weight": 0,
+            "brand": "Burt's Bees",
+            "tripIDs":
+            [
+                "defd6e5c-872f-11ee-b9d1-0242ac120002",
+                "def01b52-872f-11ee-b9d1-0242ac120002"
+            ],
+            "category": "Sun Protection",
+            "id": "def899fe-872f-11ee-b9d1-0242ac120002",
+            "qty": 1,
+            "name": "Lip balm with SPF"
+        },
+        {
+            "model": "Merino Wool Adhesive Bandages - Outdoor Multipack",
+            "weight": 0,
+            "brand": "WoolAid",
+            "tripIDs":
+            [
+                "defd6e5c-872f-11ee-b9d1-0242ac120002",
+                "def01b52-872f-11ee-b9d1-0242ac120002"
+            ],
+            "category": "First Aid Kit",
+            "id": "def899fe-872f-11ee-b9d1-0242ac120002",
+            "qty": 1,
+            "name": "Bandages"
+        },
+        {
+            "model": "Sanitation Wipes - Package of 12",
+            "weight": 0,
+            "brand": "Sea to Summit",
+            "tripIDs":
+            [
+                "defd6e5c-872f-11ee-b9d1-0242ac120002",
+                "def01b52-872f-11ee-b9d1-0242ac120002"
+            ],
+            "category": "First Aid Kit",
+            "id": "def899fe-872f-11ee-b9d1-0242ac120002",
+            "qty": 1,
+            "name": "Antiseptic wipes"
+        },
+        {
+            "model": "Pain relievers",
+            "weight": 0,
+            "brand": "",
+            "tripIDs":
+            [
+                "defd6e5c-872f-11ee-b9d1-0242ac120002",
+                "def01b52-872f-11ee-b9d1-0242ac120002"
+            ],
+            "category": "First Aid Kit",
+            "id": "def899fe-872f-11ee-b9d1-0242ac120002",
+            "qty": 1,
+            "name": "Pain relievers"
+        },
+        {
+            "model": "Tweezers",
+            "weight": 0,
+            "brand": "",
+            "tripIDs":
+            [
+                "defd6e5c-872f-11ee-b9d1-0242ac120002",
+                "def01b52-872f-11ee-b9d1-0242ac120002"
+            ],
+            "category": "First Aid Kit",
+            "id": "def899fe-872f-11ee-b9d1-0242ac120002",
+            "qty": 1,
+            "name": "Tweezers"
+        },
+        {
+            "model": "Blister Medic Kit",
+            "weight": 0,
+            "brand": "Adventure Medical Kits ",
+            "tripIDs":
+            [
+                "defd6e5c-872f-11ee-b9d1-0242ac120002",
+                "def01b52-872f-11ee-b9d1-0242ac120002"
+            ],
+            "category": "First Aid Kit",
+            "id": "def899fe-872f-11ee-b9d1-0242ac120002",
+            "qty": 1,
+            "name": "Blister treatment"
+        },
+        {
+            "model": "Emergency Blanket XL",
+            "weight": 0,
+            "brand": "SOL",
+            "tripIDs":
+            [
+                "defd6e5c-872f-11ee-b9d1-0242ac120002",
+                "def01b52-872f-11ee-b9d1-0242ac120002"
+            ],
+            "category": "Emergency Shelter",
+            "id": "def899fe-872f-11ee-b9d1-0242ac120002",
+            "qty": 1,
+            "name": "Space blanket"
+        },
+        {
+            "model": "Actik Core Headlamp",
+            "weight": 0,
+            "brand": "Petzl",
+            "tripIDs":
+            [
+                "defd6e5c-872f-11ee-b9d1-0242ac120002",
+                "def01b52-872f-11ee-b9d1-0242ac120002"
+            ],
+            "category": "Lighting",
+            "id": "def899fe-872f-11ee-b9d1-0242ac120002",
+            "qty": 1,
+            "name": "Headlamp"
+        },
+        {
+            "model": "Skeletool CX Multi-Tool",
+            "weight": 0,
+            "brand": "Leatherman",
+            "tripIDs":
+            [
+                "defd6e5c-872f-11ee-b9d1-0242ac120002",
+                "def01b52-872f-11ee-b9d1-0242ac120002"
+            ],
+            "category": "Multi-tool or Knife",
+            "id": "def899fe-872f-11ee-b9d1-0242ac120002",
+            "qty": 1,
+            "name": "Multi-tool"
+        },
+        {
+            "model": "Titan Stormproof Match Kit",
+            "weight": 0,
+            "brand": "UCO",
+            "tripIDs":
+            [
+                "defd6e5c-872f-11ee-b9d1-0242ac120002",
+                "def01b52-872f-11ee-b9d1-0242ac120002"
+            ],
+            "category": "Fire Starter",
+            "id": "def899fe-872f-11ee-b9d1-0242ac120002",
+            "qty": 1,
+            "name": "Waterproof matches"
+        },
+        {
+            "model": "Spray Pump Insect Repellent - 30 Percent DEET - 1.25 fl. oz",
+            "weight": 0,
+            "brand": "Ben's",
+            "tripIDs":
+            [
+                "defd6e5c-872f-11ee-b9d1-0242ac120002",
+                "def01b52-872f-11ee-b9d1-0242ac120002"
+            ],
+            "category": "Insect Repellent",
+            "id": "def899fe-872f-11ee-b9d1-0242ac120002",
+            "qty": 1,
+            "name": "Insect Repellent"
+        },
+        {
+            "model": "Trailmade Trekking Poles - Pair",
+            "weight": 0,
+            "brand": "REI Co-op",
+            "tripIDs":
+            [
+                "defd6e5c-872f-11ee-b9d1-0242ac120002",
+                "def01b52-872f-11ee-b9d1-0242ac120002"
+            ],
+            "category": "Misc",
+            "id": "def899fe-872f-11ee-b9d1-0242ac120002",
+            "qty": 1,
+            "name": "Trekking poles"
+        },
+        {
+            "model": "Prostaff P7 8 x 42 Binoculars",
+            "weight": 0,
+            "brand": "Nikon",
+            "tripIDs":
+            [
+                "defd6e5c-872f-11ee-b9d1-0242ac120002",
+                "def01b52-872f-11ee-b9d1-0242ac120002"
+            ],
+            "category": "Misc",
+            "id": "def899fe-872f-11ee-b9d1-0242ac120002",
+            "qty": 1,
+            "name": "Binoculars"
+        },
+        {
+            "model": "Multipurpose Poncho",
+            "weight": 0,
+            "brand": "Clothing",
+            "tripIDs":
+            [
+                "defd6e5c-872f-11ee-b9d1-0242ac120002",
+                "def01b52-872f-11ee-b9d1-0242ac120002"
+            ],
+            "category": "Clothing",
+            "id": "def899fe-872f-11ee-b9d1-0242ac120002",
+            "qty": 1,
+            "name": "Poncho"
+        }
 ]

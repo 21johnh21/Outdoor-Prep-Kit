@@ -38,6 +38,7 @@ struct TripDefCard: View {
             newItem.model = item.model
             newItem.weight = item.weight
             newItem.qty = Int16(item.qty)
+            newItem.category = item.category
             newItem.timestamp = Date()
             saveContext()
         }
