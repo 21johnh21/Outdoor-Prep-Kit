@@ -19,6 +19,7 @@ struct AddItemView: View {
     @State private var weight = 0.0
     @State private var weightText = ""
     @State private var qty : Int = 1
+    @State private var category = ""
     
     var body: some View {
         Form{
@@ -41,6 +42,7 @@ struct AddItemView: View {
                     Stepper(value: $qty, in: 1...100) {
                         Text("\(qty)")
                     }
+                    TextField("category", text: $category)
                 }
                 
             }
@@ -71,6 +73,7 @@ struct AddItemView: View {
             newItem.model = model
             newItem.weight = weight
             newItem.qty = Int16(qty)
+            newItem.category = category
             newItem.timestamp = Date()
             saveContext()
         }
@@ -85,7 +88,3 @@ struct AddItemView: View {
         }
     }
 }
-
-//#Preview {
-//    AddItemView()
-//}
