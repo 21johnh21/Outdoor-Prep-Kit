@@ -20,6 +20,7 @@
 		F8B5A9532B49C2F20042FEFC /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B5A9522B49C2F20042FEFC /* Trip.swift */; };
 		F8B5A9552B49C2F70042FEFC /* Trips.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B5A9542B49C2F70042FEFC /* Trips.swift */; };
 		F8B5A9572B49C6F10042FEFC /* TripDefCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B5A9562B49C6F10042FEFC /* TripDefCard.swift */; };
+		F8B5A9592B520EE50042FEFC /* WebViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B5A9582B520EE50042FEFC /* WebViewContainer.swift */; };
 		F8BE91AF2B13A38C00E7BE86 /* Outdoor_Prep_KitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BE91AE2B13A38C00E7BE86 /* Outdoor_Prep_KitApp.swift */; };
 		F8BE91B12B13A38C00E7BE86 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BE91B02B13A38C00E7BE86 /* Persistence.swift */; };
 		F8BE91B42B13A38C00E7BE86 /* Outdoor_Prep_Kit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F8BE91B22B13A38C00E7BE86 /* Outdoor_Prep_Kit.xcdatamodeld */; };
@@ -48,6 +49,7 @@
 		F8B5A9522B49C2F20042FEFC /* Trip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
 		F8B5A9542B49C2F70042FEFC /* Trips.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trips.swift; sourceTree = "<group>"; };
 		F8B5A9562B49C6F10042FEFC /* TripDefCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDefCard.swift; sourceTree = "<group>"; };
+		F8B5A9582B520EE50042FEFC /* WebViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewContainer.swift; sourceTree = "<group>"; };
 		F8BE91AB2B13A38C00E7BE86 /* Outdoor Prep Kit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Outdoor Prep Kit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8BE91AE2B13A38C00E7BE86 /* Outdoor_Prep_KitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Outdoor_Prep_KitApp.swift; sourceTree = "<group>"; };
 		F8BE91B02B13A38C00E7BE86 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				F8180CD72B196C3B00B52F59 /* ItemDetail.swift */,
 				F8180CD92B1BE3D700B52F59 /* ItemDetailDisplay.swift */,
 				F8180CDB2B1BE3E100B52F59 /* ItemDetailEdit.swift */,
+				F8B5A9582B520EE50042FEFC /* WebViewContainer.swift */,
 				F8B5A9452B49BB0D0042FEFC /* Resources */,
 				F8BE91B72B13A38D00E7BE86 /* Assets.xcassets */,
 				F8BE91B92B13A38D00E7BE86 /* Outdoor_Prep_Kit.entitlements */,
@@ -223,6 +226,7 @@
 				F8BE91CD2B16C30E00E7BE86 /* AddItemView.swift in Sources */,
 				F84605B22B215CDA00B4D910 /* CloudKitHelper.swift in Sources */,
 				F8BE91AF2B13A38C00E7BE86 /* Outdoor_Prep_KitApp.swift in Sources */,
+				F8B5A9592B520EE50042FEFC /* WebViewContainer.swift in Sources */,
 				F8BE91C92B13F8F400E7BE86 /* TripDetail.swift in Sources */,
 				F8B5A9532B49C2F20042FEFC /* Trip.swift in Sources */,
 				F8180CDC2B1BE3E100B52F59 /* ItemDetailEdit.swift in Sources */,

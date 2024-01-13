@@ -21,6 +21,8 @@ struct ItemDetailDisplay: View {
                     Text(String(item.weight)+" oz.")
                     Text(String(item.qty))
                     Text(String(item.category ?? ""))
+                    WebViewContainer(item: item)
+                        .navigationBarTitle("Web Page", displayMode: .inline)
                     Spacer()
                 }.padding()
                 Spacer()
